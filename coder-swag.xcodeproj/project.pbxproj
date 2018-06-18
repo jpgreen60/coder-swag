@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		730B87FB20D73E0E00300032 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730B87FA20D73E0E00300032 /* Product.swift */; };
 		7361144520D18C33005D7AC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7361144420D18C33005D7AC9 /* AppDelegate.swift */; };
 		7361144720D18C33005D7AC9 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7361144620D18C33005D7AC9 /* CategoriesVC.swift */; };
 		7361144A20D18C33005D7AC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7361144820D18C33005D7AC9 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		730B87FA20D73E0E00300032 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		7361144120D18C33005D7AC9 /* coder-swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coder-swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7361144420D18C33005D7AC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7361144620D18C33005D7AC9 /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				7386404F20D2ED830093EBFA /* Category.swift */,
+				730B87FA20D73E0E00300032 /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				73BAD8A620D4449F0029B43C /* ProductCell.swift in Sources */,
 				7386405020D2ED830093EBFA /* Category.swift in Sources */,
 				7386405320D2F11A0093EBFA /* DataService.swift in Sources */,
+				730B87FB20D73E0E00300032 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
